@@ -16,4 +16,4 @@ RUN npm run build; exit 0
 
 # Start Server
 # CMD [ "node", "build/main.js" ]
-CMD ["npx", "http-server", "dist"]
+CMD ["npx", "http-server", "/usr/src/app/dist"]
