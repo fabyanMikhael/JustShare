@@ -12,8 +12,8 @@ RUN npm install
 COPY . /usr/src/app/
 
 # Build project
-# RUN npm run build; exit 0
+RUN npm run build; exit 0
 
 # Start Server
 # CMD [ "node", "build/main.js" ]
-CMD ["npm", "run", "dev"]
+CMD ["npx", "http-server", "dist"]
