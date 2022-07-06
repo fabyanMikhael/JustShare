@@ -96,7 +96,7 @@ import { copy } from "clipboard";
         </div>
         <br>
         <h1 style="text-align: center; width: 100%;">{notification}</h1>
-        <video bind:this={video} controls autoplay style="width: 1500px" hidden={!videoEnabled}></video> 
+        <video bind:this={video} controls autoplay playsinline style="width: 1500px" hidden={!videoEnabled}></video> 
     </div>
 
 </main>
