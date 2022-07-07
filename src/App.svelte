@@ -98,7 +98,7 @@
 
 <svelte:head>
     <meta property="og:title" content="JustShare" />
-    <meta property="og:image" content="/favicon.ico" />
+    <!-- <meta property="og:image" content="/favicon.ico" /> -->
     <meta
         property="og:description"
         content="Share your screen directly to anyone you want"
